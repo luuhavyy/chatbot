@@ -44,6 +44,7 @@ A Docker image was pushed to Docker Hub and scheduled on a cloud VM using `cront
 ```cron
 0 8 * * * docker run --rm luuhavyy/chatbot >> /root/chatbot.log 2>&1
 ```
+Daily logs are saved on the server at `/root/chatbot.log`. A recent example is included in the `logs/` folder.
 
 ## Log Example
 
@@ -52,6 +53,12 @@ Running daily update job...
 Done.
 New: 3, Updated: 2, Skipped: 28, Chunks: 125
 ```
+
+## Sample Answer Screenshot
+
+The assistant can accurately respond to queries with cited sources, as shown below:
+
+<img width="1571" height="535" alt="Screenshot 2025-07-24 225850" src="https://github.com/user-attachments/assets/102dcd99-e3f5-4591-b280-8391563ab9dd" />
 
 ## Secrets
 
