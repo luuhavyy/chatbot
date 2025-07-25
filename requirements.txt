@@ -1,0 +1,8 @@
+requests
+html2text
+tqdm
+python-dotenv
+qdrant-client
+google-cloud-aiplatform
+vertexai
+tiktoken
