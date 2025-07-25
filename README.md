@@ -20,7 +20,7 @@ This project scrapes support articles from a Zendesk-based help center, converts
 ## Run Locally
 
 ```bash
-git clone https://github.com/yourusername/chatbot.git
+git clone https://github.com/luuhavyy/chatbot.git
 cd chatbot
 cp .env.sample .env  # Fill in your keys
 
